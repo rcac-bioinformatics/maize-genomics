@@ -1,0 +1,13 @@
+1-introduction.Rmd
+2-genome-assembly-strategies.Rmd
+3-data-quality-control.Rmd
+4-pacbio-hifi-assembly.Rmd
+5-ont-reads-assembly.Rmd
+6-hybrid-assembly.Rmd
+7-scaffolding-assemblies.Rmd
+8-genome-assembly-assessment.Rmd
+9-gene-annotation-with-braker.Rmd
+10-gene-annotation-with-helixer.Rmd
+11-gene-annotation-with-gemoma.Rmd
+12-functional-annotation-with-entap.Rmd
+13-annotation-assesment.Rmd
