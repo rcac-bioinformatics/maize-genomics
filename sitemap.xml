@@ -1,45 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/404.html</loc>
+    <loc>https://maize-genomics.github.io/NA/1-introduction.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/CODE_OF_CONDUCT.html</loc>
+    <loc>https://maize-genomics.github.io/NA/10-gene-annotation-with-braker.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/LICENSE.html</loc>
+    <loc>https://maize-genomics.github.io/NA/11-gene-annotation-with-helixer.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/index.html</loc>
+    <loc>https://maize-genomics.github.io/NA/12-gene-annotation-with-gemoma.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/404.html</loc>
+    <loc>https://maize-genomics.github.io/NA/13-functional-annotation-with-entap.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://maize-genomics.github.io/NA/14-annotation-assesment.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/LICENSE.html</loc>
+    <loc>https://maize-genomics.github.io/NA/2-genome-assembly-strategies.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/index.html</loc>
+    <loc>https://maize-genomics.github.io/NA/3-data-quality-control.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/introduction.html</loc>
+    <loc>https://maize-genomics.github.io/NA/4-pacbio-hifi-assembly.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/profiles.html</loc>
+    <loc>https://maize-genomics.github.io/NA/404.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/reference.html</loc>
+    <loc>https://maize-genomics.github.io/NA/5-oxford-nanopore-assembly.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/introduction.html</loc>
+    <loc>https://maize-genomics.github.io/NA/6-hybrid-assembly.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/profiles.html</loc>
+    <loc>https://maize-genomics.github.io/NA/7-scaffolding-assemblies.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/reference.html</loc>
+    <loc>https://maize-genomics.github.io/NA/8-assembly-evaluation.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/9-annotation-strategies.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/images.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/index.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/1-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/10-gene-annotation-with-braker.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/11-gene-annotation-with-helixer.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/12-gene-annotation-with-gemoma.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/13-functional-annotation-with-entap.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/14-annotation-assesment.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/2-genome-assembly-strategies.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/3-data-quality-control.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/4-pacbio-hifi-assembly.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/404.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/5-oxford-nanopore-assembly.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/6-hybrid-assembly.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/7-scaffolding-assemblies.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/8-assembly-evaluation.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/9-annotation-strategies.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/reference.html</loc>
   </url>
 </urlset>
