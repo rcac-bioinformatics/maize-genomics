@@ -455,7 +455,7 @@
         
 <section id="aio-1-introduction"><p>Content from <a href="1-introduction.html">Introduction to Genome assembly</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/1-introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -696,7 +696,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-2-genome-assembly-strategies"><p>Content from <a href="2-genome-assembly-strategies.html">Assembly Strategies</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/2-genome-assembly-strategies.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1113,7 +1113,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-3-data-quality-control"><p>Content from <a href="3-data-quality-control.html">Data Quality Control</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/3-data-quality-control.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1425,7 +1425,7 @@ Create a slurm script to run NanoPlot on the HiFi reads.</p>
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
   <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>The stdout from the NanoPlot run will look like this:</p>
 <pre><code>2025-02-13 12:13:19,155 NanoPlot 1.44.1 started with arguments Namespace(threads=16, verbose=True, store=False, raw=False, huge=False, outdir='nanoplot_pacbio_output', no_static=False, prefix='At_PacBio_', tsv_stats=False, only_report=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format=['png'], plots=['kde'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=True, title=None, font_scale=1, dpi=300, hide_stats=False, fastq=['9994.q20.CCS.fastq.gz'], fasta=None, fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='nanoplot_pacbio_output/At_PacBio_')
@@ -1520,7 +1520,7 @@ Create a slurm script to run NanoPlot on the basecalled ONT reads.</p>
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler2" aria-expanded="false" aria-controls="collapseSpoiler2">
   <h3 class="accordion-header" id="headingSpoiler2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> Show details </h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler2" aria-labelledby="headingSpoiler2">
+<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
 <div class="accordion-body">
 <p>The stdout from the NanoPlot run will look like this:</p>
 <pre><code>2025-02-13 12:15:51,066 NanoPlot 1.44.1 started with arguments Namespace(threads=8, verbose=True, store=False, raw=False, huge=False, outdir='nanoplot_pacbio_output', no_static=False, prefix='At_ONT_', tsv_stats=False, only_report=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format=['png'], plots=['kde'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=True, title=None, font_scale=1, dpi=300, hide_stats=False, fastq=['basecalled_2025-02-12.fastq'], fasta=None, fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='nanoplot_pacbio_output/At_ONT_')
@@ -1767,7 +1767,7 @@ frequency distribution plots.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>A: High error rates in ONT reads can lead to k-mer counting errors,
 causing the analysis to fail. K-mer analyses reads rely on accuracy to
@@ -1829,7 +1829,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-4-pacbio-hifi-assembly"><p>Content from <a href="4-pacbio-hifi-assembly.html">PacBio HiFi Assembly using HiFiasm</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/4-pacbio-hifi-assembly.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2554,7 +2554,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-5-oxford-nanopore-assembly"><p>Content from <a href="5-oxford-nanopore-assembly.html">Oxford Nanopore Assembly using Flye</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/5-oxford-nanopore-assembly.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2997,7 +2997,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-6-hybrid-assembly"><p>Content from <a href="6-hybrid-assembly.html">Hybrid Long Read Assembly (optional)</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/6-hybrid-assembly.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -3248,7 +3248,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-7-scaffolding-assemblies"><p>Content from <a href="7-scaffolding-assemblies.html">Scaffolding using Optical Genome Mapping</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/7-scaffolding-assemblies.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -3926,7 +3926,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-8-assembly-evaluation"><p>Content from <a href="8-assembly-evaluation.html">Assembly Assessment</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/8-assembly-evaluation.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -4256,7 +4256,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-9-annotation-strategies"><p>Content from <a href="9-annotation-strategies.html">Annotation Strategies</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/9-annotation-strategies.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -4642,7 +4642,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-10-gene-annotation-with-braker"><p>Content from <a href="10-gene-annotation-with-braker.html">Annotation using BRAKER</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/10-gene-annotation-with-braker.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -4995,7 +4995,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-11-gene-annotation-with-helixer"><p>Content from <a href="11-gene-annotation-with-helixer.html">Annotation using Helixer</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/11-gene-annotation-with-helixer.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -5215,7 +5215,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-12-gene-annotation-with-gemoma"><p>Content from <a href="12-gene-annotation-with-gemoma.html">Homology-based gene annotation with GeMoMa</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/12-gene-annotation-with-gemoma.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -5277,7 +5277,7 @@ any links that you are not going to use.
  -->
 </div></section><section id="aio-13-functional-annotation-with-entap"><p>Content from <a href="13-functional-annotation-with-entap.html">Functional annotation using EnTAP</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/13-functional-annotation-with-entap.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -5664,7 +5664,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-14-annotation-assesment"><p>Content from <a href="14-annotation-assesment.html">Annotation Assesment</a></p>
 <hr>
-<p>Last updated on 2025-07-01 |
+<p>Last updated on 2025-09-30 |
 
         <a href="https://rcac-bioinformatics.github.io/maize-genomics/edit/main/episodes/14-annotation-assesment.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -5854,7 +5854,7 @@ running OMark.</p>
   OMark Results Summary
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p><strong>Conserved HOGs in Brassicaceae</strong></p>
 <table class="table">
@@ -6125,8 +6125,8 @@ any links that you are not going to use.
   "url": "https://maize-genomics.github.io/NA/aio.html",
   "identifier": "https://maize-genomics.github.io/NA/aio.html",
   "dateCreated": "2025-02-05",
-  "dateModified": "2025-09-23",
-  "datePublished": "2025-09-23"
+  "dateModified": "2025-09-30",
+  "datePublished": "2025-09-30"
 }
 
   </script><script>
