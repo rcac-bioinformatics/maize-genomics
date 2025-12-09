@@ -55,6 +55,9 @@
     <loc>https://maize-genomics.github.io/NA/aio.html</loc>
   </url>
   <url>
+    <loc>https://maize-genomics.github.io/NA/citation.html</loc>
+  </url>
+  <url>
     <loc>https://maize-genomics.github.io/NA/images.html</loc>
   </url>
   <url>
@@ -113,6 +116,9 @@
   </url>
   <url>
     <loc>https://maize-genomics.github.io/NA/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://maize-genomics.github.io/NA/instructor/citation.html</loc>
   </url>
   <url>
     <loc>https://maize-genomics.github.io/NA/instructor/images.html</loc>
